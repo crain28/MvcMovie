@@ -3,25 +3,20 @@
 @{
     ViewData["Title"] = "Index";
 }
-
 <h1>Index</h1>
-
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Add New Movie</a>
 </p>
 <form asp-controller="Movies" asp-action="Index" method="get">
     <p>
-
         <select asp-for="MovieGenre" asp-items="Model.Genres">
             <option value="">All</option>
         </select>
-
         Title: <input type="text" asp-for="SearchString" />
         <input type="submit" value="Filter" />
     </p>
 </form>
-
-<table class="table">
+<table class="table">                                                                                                               
     <thead>
         <tr>
             <th>
