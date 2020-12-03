@@ -9,19 +9,40 @@ a.navbar-brand {
 
 /* Provide sufficient contrast against white background */
 a {
-  color: #0366d6;
+    color: red;    
+}
+
+tr {
+    background-image: url("img/cd-3.jpg");
+
+}
+
+dl {
+    background-image: url("img/cd-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+th {
+    color: black;
+
+}
+
+td {
+    color: blue;
+
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
+  color: white;
+  background-color: transparent;
   border-color: #1861ac;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: blue;
-  border-color: grey;
+  background-color: green;
+  border-color: black;
 }
 
 /* Sticky footer styles
@@ -52,17 +73,20 @@ button.accept-policy {
   line-height: inherit;
 }
 
-/* Sticky footer styles
--------------------------------------------------- */
+/* Sticky footer style ------------------------ */
 html {
   position: relative;
   min-height: 100%;
 }
 
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    background-image: url("img/cd-1.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
 }
+
 .footer {
   position: absolute;
   bottom: 0;
